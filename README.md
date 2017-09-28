@@ -1,4 +1,4 @@
-# els-haproxy
+# els-haproxy v1.0.0
 
 A proxy server based on [haproxy](https://cbonte.github.io/haproxy-dconv/)
 which allows the use of
@@ -106,4 +106,14 @@ If all is well, you should see a version number.
 For further details, see
 
 * [Customers | Proxy Server](https://docs.elasticlicensing.com/customers/proxy-server)
+
+----
+
+## Updating els-haproxy
+
+We use [git flow](https://danielkummer.github.io/git-flow-cheatsheet/) to manage
+the release process.
+
+When making a new release, bump the version at the top of this file and add
+a note to releases.md
 
