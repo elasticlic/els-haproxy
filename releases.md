@@ -6,5 +6,8 @@ the release process.
 When making a new release, bump the version at the top of README.md and add
 a note to this file.
 
+## v1.0.1
+Added clone note
+
 ## v1.0.0
 Initial release.
