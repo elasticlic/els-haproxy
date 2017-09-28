@@ -1,4 +1,4 @@
-# els-haproxy v1.0.0
+# els-haproxy v1.0.1
 
 A proxy server based on [haproxy](https://cbonte.github.io/haproxy-dconv/)
 which allows the use of
@@ -35,6 +35,8 @@ to ensure that the machine is powerful enough to handle the load. There are many
 alternative configurations which are beyond the scope of this guide.
 
 ## Server Configuration
+
+Clone this repo to a location on the server.
 
 File `config/haproxy.cfg` configures haproxy. This will work without change, but
 depending on your environment, you may wish to tune the settings. If so, edit
